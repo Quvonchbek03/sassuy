@@ -1,0 +1,63 @@
+.section1 {
+  .container {
+    margin-top: 200px;
+    .logo {
+        h2{
+            text-align: center;
+            color: #160637;
+text-align: center;
+/* 32/32 Bold */
+font-family: Metropolis;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+        }
+        .p1{
+margin-left: 160px;
+
+ width: 602px;
+color: #8989A2;
+text-align: center;
+font-family: Metropolis;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+        }
+      .btn5 {
+        display: flex;
+        padding: 8px 16px;
+        justify-content: center;
+        margin-left: 400px;
+        align-items: center;
+        margin-top: 20px;
+
+        gap: 12px;
+        border: none;
+        border-radius: 20px;
+        background: #F7F1FF;
+      }
+      .logos {
+        display: flex;
+        gap: 17px;
+        .logos1 {
+          width: 305px;
+          text-align: center;
+
+          p {
+            width: 305px;
+
+            color: #8989a2;
+            text-align: center;
+            font-family: Metropolis;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

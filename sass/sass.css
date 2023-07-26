@@ -1,0 +1,294 @@
+header {
+  background-color: rgb(174, 199, 225);
+  padding-top: 30px;
+}
+
+.container {
+  margin-top: 50px;
+  margin: 0 auto;
+  width: 948px;
+}
+.container nav {
+  display: flex;
+  gap: 370px;
+  align-items: center;
+  margin-top: 30px;
+}
+.container nav .nav-right {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.container nav .nav-right ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.container nav .nav-right ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container nav .nav-right .btn {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 23px;
+  border: 1px solid var(--primary-purple, #722ED1);
+  background: var(--white, #FFF);
+}
+.container .header {
+  display: flex;
+  gap: 16px;
+  margin-top: 111px;
+}
+.container .header .header1 .btn1 {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  border-radius: 20px;
+  background: #F7F1FF;
+}
+.container .header .header1 h1 {
+  width: 472px;
+  font-family: Metropolis;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .header .header1 p {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  width: 472px;
+}
+.container .header .header1 .btn2 .btn3 {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 23px;
+  background: var(--primary-purple, #722ED1);
+}
+.container .header .header1 .btn2 .btn4 {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 23px;
+  background: #FFF;
+  color: var(--primary-purple, #722ED1);
+}
+
+.section1 .container {
+  margin-top: 200px;
+}
+.section1 .container .logo h2 {
+  text-align: center;
+  color: #160637;
+  text-align: center;
+  /* 32/32 Bold */
+  font-family: Metropolis;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.section1 .container .logo .p1 {
+  margin-left: 160px;
+  width: 602px;
+  color: #8989A2;
+  text-align: center;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.section1 .container .logo .btn5 {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  margin-left: 400px;
+  align-items: center;
+  margin-top: 20px;
+  gap: 12px;
+  border: none;
+  border-radius: 20px;
+  background: #F7F1FF;
+}
+.section1 .container .logo .logos {
+  display: flex;
+  gap: 17px;
+}
+.section1 .container .logo .logos .logos1 {
+  width: 305px;
+  text-align: center;
+}
+.section1 .container .logo .logos .logos1 p {
+  width: 305px;
+  color: #8989a2;
+  text-align: center;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.section2 .container {
+  margin-top: 200px;
+}
+.section2 .container .orta {
+  display: flex;
+}
+.section2 .container .orta .chap {
+  position: relative;
+}
+.section2 .container .orta .chap .chap1 {
+  width: 428px;
+  height: 494px;
+  background-color: aqua;
+  position: absolute;
+  top: -30px;
+  left: 25px;
+  background: #FFF;
+  box-shadow: 4px 4px 12px 0px rgba(137, 137, 162, 0.12);
+}
+.section2 .container .orta .chap .chap1 h2 {
+  color: #160637;
+  text-align: center;
+  font-family: Metropolis;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.section2 .container .orta .chap .chap1 .chiq {
+  margin-left: 40px;
+}
+.section2 .container .orta .chap .chap1 .google {
+  margin-left: 100px;
+}
+.section2 .container .orta .chap .chap1 .btn6 {
+  width: 344px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: #722ED1;
+  border: none;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.section2 .container .orta .chap .chap1 .p3 span {
+  color: var(--primary-purple, #722ED1);
+}
+.section2 .container .orta .chap .chap1 p {
+  text-align: center;
+  font-size: 16px;
+}
+.section2 .container .orta .chap .chap1 .input1 {
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 348px;
+}
+.section2 .container .orta .ong h2 {
+  width: 431px;
+  color: #160637;
+  /* 32/32 Bold */
+  font-family: Metropolis;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.section2 .container .orta .ong .yozuv1 {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+  padding-top: 40px;
+}
+.section2 .container .orta .ong .line {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.section2 .container .orta .ong .line img {
+  height: 5px;
+  width: 110px;
+}
+.footer .container .foot {
+  display: flex;
+  margin-top: 200px;
+}
+.footer .container .foot .foot1 p {
+  width: 209px;
+  color: #160637;
+  font-family: Metropolis;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.foot1 ul li a {
+  text-decoration: none;
+  line-height: 34px;
+  color: black;
+}
+
+.foot1 {
+  position: relative;
+}
+.foot1 .raketa {
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+.foot1 .fesbok {
+  padding-top: 30px;
+}
+.foot1 ul {
+  list-style: none;
+}
+.foot1 ul li a span {
+  color: #160637;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.im {
+  width: 180px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.05));
+}
+
+.tex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.tex p {
+  color: #160637;
+  font-family: Metropolis;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}/*# sourceMappingURL=sass.css.map */

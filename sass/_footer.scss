@@ -1,0 +1,67 @@
+.footer .container{
+    .foot{
+        display: flex;
+        margin-top: 200px;
+       
+        .foot1{
+                
+            p{
+ width: 209px;
+color: #160637;
+font-family: Metropolis;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+            }
+        }
+    }
+}
+.foot1 ul li a{
+    text-decoration: none;
+    line-height: 34px;
+    color: black;
+}
+.foot1{
+
+    position: relative;
+.raketa{
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+.fesbok{
+    padding-top: 30px;
+} ul{
+    list-style: none;
+}
+ ul li a span{
+    color: #160637;
+font-family: Metropolis;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+}
+.im{
+    width: 180px;
+   height: 40px;
+  flex-shrink: 0;
+   border-radius: 5px;
+   filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.05));
+
+}
+.tex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    p{
+        color: #160637;
+font-family: Metropolis;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+    }
+}
